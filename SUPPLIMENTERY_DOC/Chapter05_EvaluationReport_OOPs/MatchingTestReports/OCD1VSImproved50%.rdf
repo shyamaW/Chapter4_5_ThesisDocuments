@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</onto1>
+	<onto2>http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment</onto2>
+	<uri1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</uri1>
+	<uri2>http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasColor"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasColor"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasLength"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasLength"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isVarietyOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isVarietyOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasVariety"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasVariety"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Crop"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#Crop"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9894</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#WeedControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#WeedControl"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9893</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Disease"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#Disease"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9854</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMaxTemperature"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasTemperature"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9346</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMaxElevation"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasElevation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9312</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasPesticideType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasPestType"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8971</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasSize"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasPreferredSize"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8769</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMaxRainfall"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasRainFall"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8722</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isDiseaseResistanceEventOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isDiseaseControlEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8568</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isUnitOfControlMethodEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isPestControlEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.856</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasControlMethodEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasPestControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8541</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isMinSoilPhOfFertilizerEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isFertilizerEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8432</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasControlMethodType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasControl"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8402</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasDiseaseType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasDiseaseName"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8308</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasDiseaseResistanceEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasDiseaseControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8235</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasGrowingProblemEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8052</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasControlMethodApplicationStage"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasApplication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7937</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isControlMethodEventOfCrop"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isCropManagementMethodOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7928</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isResistanceDiseaseOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isTargetDiseaseOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7868</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasCauseType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasCausedBy"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7855</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isSoilTypeOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isFertilizerTypeOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7792</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasZoneType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasWeedicideType"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7784</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasControlMethodEventForCrop"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasCropManagementMethod"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7726</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#DiseaseControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#DiseaseControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7595</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isCropSymptomOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isCropManagementOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7578</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasQuality"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasYieldQuantity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7573</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isControlMethodEventOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7497</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#PestControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#PestControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7469</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasNutrition"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasCondition"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7399</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasResistanceDisease"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasTargetDisease"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7384</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isGrowingProblemEventOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isHarvestingEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7281</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMinTemperature"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasMaturePeriod"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7256</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasSoilType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasFertilizerType"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7228</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isConsistedOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isDimensionOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7139</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasCropSymptom"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasCropManagement"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6732</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isSymptomOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isTaskOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6594</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isUnitOfMaturedTimeEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isStorageEventOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6514</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isMaxSoilPhOfFertilizerEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasFertilizerEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6472</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isCausalAgentOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isNutrientOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6416</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasWeight"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasWidth"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5934</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isRelatedControlMethodOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isClimateConditionOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5657</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#isVarietyTypeOf"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#isNutrientValueOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5636</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasShape"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasSymptoms"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.552</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMinimumTemperature"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasMatureDays"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.551</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasUnitForControlMethodEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasStorageEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5314</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasCausalAgent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasNutrient"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5312</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasPesticide"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasHarvestingEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5284</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#hasMinElevation"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#hasInstruction"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5217</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

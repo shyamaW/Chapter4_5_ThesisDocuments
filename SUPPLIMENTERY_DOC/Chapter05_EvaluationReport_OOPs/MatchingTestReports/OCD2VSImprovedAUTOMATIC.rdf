@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</onto1>
+	<onto2>http://www.semanticweb.org/sajith/ontologies/2020/0/AgriOntology</onto2>
+	<uri1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</uri1>
+	<uri2>http://www.semanticweb.org/sajith/ontologies/2020/0/AgriOntology</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#ApplicationMethod"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#ApplicationMethod"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Season"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Season"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#MaxPhValue"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#MaxPhValue"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Unit"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Unit"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Symptom"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Symptom"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#MinPhValue"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#MinPhValue"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Cause"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Cause"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Quantity"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Quantity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Location"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Location"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#TimeOfApplication"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#TimeOfApplication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9882</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#SoilType"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#SoilType"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9861</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Variety"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Variety"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Weed"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Weed"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Pest"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Pest"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#SpecialInformation"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#SpecialInformation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Disease"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#Disease"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#ControlMethodEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#ControlMethodEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#ControlMethod"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#ControlMethod"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#SoilNutrition"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#SoilNutrient"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8821</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#GrowingProblemEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#PlantationProblemEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6534</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#DiseaseResistanceEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#SeedRequirementEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#SoilSpecialCharacteristics"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sajith/ontologies/2020/0/agriontology#SoilOtherCharacteristic"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

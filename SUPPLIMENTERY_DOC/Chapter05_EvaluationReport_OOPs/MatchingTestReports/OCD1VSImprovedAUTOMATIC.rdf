@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</onto1>
+	<onto2>http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment</onto2>
+	<uri1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</uri1>
+	<uri2>http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Crop"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#Crop"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9894</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#WeedControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#WeedControl"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9893</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Disease"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#Disease"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9854</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#DiseaseControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#DiseaseControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7595</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#PestControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/sarindasenevirathne/ontologies/2020/0/OntologyAssignment#PestControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7469</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

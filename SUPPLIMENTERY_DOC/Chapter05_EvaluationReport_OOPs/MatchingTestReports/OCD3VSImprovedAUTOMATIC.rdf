@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</onto1>
+	<onto2>http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato</onto2>
+	<uri1>http://www.sln4mop.org/ontologies/2014/SLN_Ontology</uri1>
+	<uri2>http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Disease"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#Disease"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9898</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Pest"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#Pest"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9893</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Variety"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#Variety"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#Crop"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#Crop"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#WeedControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#WeedControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7816</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#DiseaseControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#DiseaseControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7602</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#PestControl"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#PestControlEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7496</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.sln4mop.org/ontologies/2014/SLN_Ontology#ControlMethodEvent"/>
+			<entity2 rdf:resource="http://www.semanticweb.org/ds/ontologies/2020/0/assigament_BigOinionTomato#SeedFertilizationEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>
